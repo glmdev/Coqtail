@@ -587,7 +587,7 @@ class Coqtail:
                 lines += ls
                 highlights += hls
             else:
-                lines.append("All goals completed.")
+                lines.append("No more subgoals.")
 
         for idx, goal in enumerate(goals.fg):
             if idx == 0:
